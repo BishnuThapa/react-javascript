@@ -8,11 +8,16 @@ function App() {
   const increment = () => {
     setCount(count+1)
   }
+  const decrement = () => {
+    if (count>0)
+      setCount(count-1)
+  }
   return (
     <>
       <h1>Hello From React Javascript course</h1>
       <h4>Count:{count}</h4>
       <button onClick={increment} >Increment</button>
+      <button onClick={decrement} >Decrement</button>
     </>
   )
 }
