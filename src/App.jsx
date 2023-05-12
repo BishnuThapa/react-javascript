@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Movies from './Movies'
+import DateTime from './DateTime'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
       <h4>Count:{count}</h4>
       <button onClick={increment} >Increment</button>
       <button onClick={decrement} >Decrement</button> */}
-      <Movies />
+      {/* <Movies /> */}
+      <DateTime />
     </>
   )
 }
