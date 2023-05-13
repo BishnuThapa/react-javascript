@@ -7,7 +7,7 @@ const DateTime = () => {
     const time=new Date().toLocaleTimeString()
     return (
         <>
-        <h1>Hello My Name is Bishnu</h1>
+        <h1 className='heading'>Hello My Name is Bishnu</h1>
         <p>Today's Date is : {date} </p>
         <p>Current time is : {time} </p>
         </>
